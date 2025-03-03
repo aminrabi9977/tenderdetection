@@ -25,6 +25,13 @@ def normalize_date(date_str: str) -> str:
         except ValueError:
             pass
             
+        # Try "DD-MMM-YYYY" format (AfDB format: 28-Feb-2025)
+        try:
+            date_obj = datetime.strptime(date_str, "%d-%b-%Y")
+            return date_obj.strftime("%d-%b-%Y")
+        except ValueError:
+            pass
+            
         # Try "DD Month YYYY" format (ISDB format: 28 December 2022)
         try:
             date_obj = datetime.strptime(date_str, "%d %B %Y")
@@ -61,6 +68,8 @@ def format_date_for_site(date_obj, site_type):
         return date_obj.strftime("%d %b %Y")   # 28 Feb 2025 (same format as EBRD)
     elif site_type.lower() == "isdb":
         return date_obj.strftime("%d %B %Y")   # 28 December 2022
+    elif site_type.lower() == "afdb":
+        return date_obj.strftime("%d-%b-%Y")   # 28-Feb-2025
     else:
         # Default format
         return date_obj.strftime("%Y-%m-%d")   # 2025-02-24

@@ -8,8 +8,10 @@ from src.scrapers.world_bank_scraper import WorldBankScraper
 from src.scrapers.ebrd_scraper import EBRDScraper
 from src.scrapers.tenders_info_scraper import TendersInfoScraper
 from src.scrapers.isdb_scraper import ISDBScraper
+from src.scrapers.afdb_scraper import AfDBScraper
+from src.scrapers.aiib_scraper import AIIBScraper
 from src.utils.logging_utils import setup_logging
-from src.config.settings import WORLD_BANK_URL, EBRD_URL, TENDERS_INFO_URL, ISDB_URL, OUTPUT_DIR
+from src.config.settings import WORLD_BANK_URL, EBRD_URL, TENDERS_INFO_URL, ISDB_URL, AFDB_URL, AIIB_URL, OUTPUT_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +25,7 @@ async def run_scraper(scraper_class, url, site_name):
         if not df.empty:
             # Save results to CSV
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_path = OUTPUT_DIR / f"{site_name}_procurement_{timestamp}.csv"
+            output_path = OUTPUT_DIR / f"{site_name}_data_{timestamp}.csv"
             df.to_csv(output_path, index=False)
             logger.info(f"{site_name} data saved to {output_path}")
             return len(df)
@@ -60,6 +62,14 @@ async def main():
     
     # Run ISDB scraper
     rows = await run_scraper(ISDBScraper, ISDB_URL, "ISDB")
+    total_rows += rows
+    
+    # Run AfDB scraper
+    rows = await run_scraper(AfDBScraper, AFDB_URL, "AfDB")
+    total_rows += rows
+    
+    # Run AIIB scraper
+    rows = await run_scraper(AIIBScraper, AIIB_URL, "AIIB")
     total_rows += rows
     
     # Log summary of results

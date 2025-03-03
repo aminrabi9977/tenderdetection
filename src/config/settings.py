@@ -27,3 +27,4 @@ WORLD_BANK_URL = "https://projects.worldbank.org/en/projects-operations/procurem
 EBRD_URL = "https://www.ebrd.com/work-with-us/procurement/notices.html"
 TENDERS_INFO_URL = "https://www.tendersinfo.com/"
 ISDB_URL = "https://www.isdb.org/project-procurement/tenders"
+AFDB_URL = "https://www.afdb.org/en/projects-and-operations/procurement"
