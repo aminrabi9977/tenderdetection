@@ -10,8 +10,9 @@ from src.scrapers.tenders_info_scraper import TendersInfoScraper
 from src.scrapers.isdb_scraper import ISDBScraper
 from src.scrapers.afdb_scraper import AfDBScraper
 from src.scrapers.aiib_scraper import AIIBScraper
+from src.scrapers.afd_scraper import AFDScraper
 from src.utils.logging_utils import setup_logging
-from src.config.settings import WORLD_BANK_URL, EBRD_URL, TENDERS_INFO_URL, ISDB_URL, AFDB_URL, AIIB_URL, OUTPUT_DIR
+from src.config.settings import WORLD_BANK_URL, EBRD_URL, TENDERS_INFO_URL, ISDB_URL, AFDB_URL, AIIB_URL, AFD_URL, OUTPUT_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -70,6 +71,10 @@ async def main():
     
     # Run AIIB scraper
     rows = await run_scraper(AIIBScraper, AIIB_URL, "AIIB")
+    total_rows += rows
+    
+    # Run AFD scraper
+    rows = await run_scraper(AFDScraper, AFD_URL, "AFD")
     total_rows += rows
     
     # Log summary of results

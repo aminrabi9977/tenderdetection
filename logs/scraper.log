@@ -393,3 +393,296 @@ task: <Task pending name='Task-11' coro=<Connection.run() running at C:\ProgramD
 2025-03-03 11:19:35,373 - src.scrapers.afdb_scraper - INFO - No matching rows found
 2025-03-03 11:19:35,506 - __main__ - INFO - No data to save for AfDB
 2025-03-03 11:19:35,506 - __main__ - INFO - Scraping completed. Total rows extracted: 0
+2025-03-03 16:33:03,188 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-03-03 16:33:03,355 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-03 16:33:03,356 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-03-03 16:33:03,495 - __main__ - INFO - No data to save for WorldBank
+2025-03-03 16:33:03,495 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-03-03 16:33:21,395 - src.scrapers.ebrd_scraper - INFO - Posts table found
+2025-03-03 16:33:21,395 - src.scrapers.ebrd_scraper - INFO - Processing page 1
+2025-03-03 16:33:21,409 - src.scrapers.ebrd_scraper - INFO - Found 10 rows to check for today's date
+2025-03-03 16:33:21,471 - src.scrapers.ebrd_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-03 16:33:21,472 - src.scrapers.ebrd_scraper - INFO - No matching rows found
+2025-03-03 16:33:21,605 - __main__ - INFO - No data to save for EBRD
+2025-03-03 16:33:27,696 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-03-03 16:33:27,721 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-03-03 16:33:27,726 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-03-03 16:33:27,727 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-03-03 16:33:27,727 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-03-03 16:33:27,728 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-03-03 16:33:27,730 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-03-03 16:33:27,731 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-03-03 16:33:27,733 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-03-03 16:33:33,529 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:33:33,529 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-03-03 16:33:33,530 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-03-03 16:33:33,532 - src.scrapers.tenders_info_scraper - INFO - Processing tender: W   Execution Of Works Olsztyn Branch Szczytno Obi...
+2025-03-03 16:33:33,533 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-03-03 16:33:33,535 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-03-03 16:33:33,536 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-03-03 16:33:39,127 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:33:39,127 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-03-03 16:33:39,138 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-03-03 16:33:39,139 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-03-03 16:33:39,139 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-03-03 16:33:39,318 - __main__ - INFO - No data to save for TendersInfo
+2025-03-03 16:33:44,908 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-03-03 16:33:45,254 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-03-03 16:33:55,691 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-03-03 16:33:55,691 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-03-03 16:33:55,995 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-03-03 16:33:59,778 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-03-03 16:33:59,778 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-03-03 16:33:59,872 - src.scrapers.isdb_scraper - INFO - Found 15 tender URLs on current page
+2025-03-03 16:33:59,874 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-03-03 16:33:59,875 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-03-03 16:33:59,875 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 115
+2025-03-03 16:33:59,875 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-03-03 16:34:14,404 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:34:14,404 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-03-03 16:34:23,962 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:34:23,962 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-03-03 16:34:33,219 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:34:33,219 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-03-03 16:34:43,706 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:34:43,706 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-03-03 16:34:56,106 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:34:56,107 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-03-03 16:35:06,154 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:35:06,154 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-03-03 16:35:22,750 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:35:22,751 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-03-03 16:35:32,216 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:35:32,217 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-03-03 16:35:42,802 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:35:42,802 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-03-03 16:35:53,436 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:35:53,436 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-03-03 16:36:02,291 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:36:02,291 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (5 tenders)
+2025-03-03 16:36:07,757 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-03 16:36:07,757 - src.scrapers.isdb_scraper - INFO - No matching tenders found
+2025-03-03 16:36:07,937 - __main__ - INFO - No data to save for ISDB
+2025-03-03 16:36:07,938 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-03-03 16:36:07,938 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 03-Mar-2025
+2025-03-03 16:36:12,451 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-03-03 16:36:12,497 - src.scrapers.afdb_scraper - INFO - Found 20 rows in the table
+2025-03-03 16:36:12,612 - src.scrapers.afdb_scraper - INFO - Found 7 rows matching today's date
+2025-03-03 16:36:12,613 - src.scrapers.afdb_scraper - INFO - Processing batch 1 (5 rows)
+2025-03-03 16:36:15,243 - src.scrapers.afdb_scraper - INFO - Processed: PPM - Burkina Faso - Projet de développement des c...
+2025-03-03 16:36:15,662 - src.scrapers.afdb_scraper - INFO - Processed: AGPM - Burkina Faso - Projet de développement des ...
+2025-03-03 16:36:15,681 - src.scrapers.afdb_scraper - INFO - Processed: AOI - Cameroon - Reconstruction works on National ...
+2025-03-03 16:36:15,709 - src.scrapers.afdb_scraper - INFO - Processed: AOI - Burundi - Travaux de construction de : (i) T...
+2025-03-03 16:36:15,724 - src.scrapers.afdb_scraper - INFO - Processed: AMI - Côte d’Ivoire - Recrutement d’un Consultant ...
+2025-03-03 16:36:15,724 - src.scrapers.afdb_scraper - INFO - Found 5 matching rows in this batch
+2025-03-03 16:36:15,724 - src.scrapers.afdb_scraper - INFO - Processing batch 2 (2 rows)
+2025-03-03 16:36:18,077 - src.scrapers.afdb_scraper - INFO - Processed: AMI - Guinée-Bissau - Recrutement Consultant Indiv...
+2025-03-03 16:36:18,122 - src.scrapers.afdb_scraper - INFO - Processed: AMI - Guinée-Bissau - Elaboration d’un Plan de Par...
+2025-03-03 16:36:18,123 - src.scrapers.afdb_scraper - INFO - Found 2 matching rows in this batch
+2025-03-03 16:36:18,123 - src.scrapers.afdb_scraper - INFO - Found 7 matching rows on page 1
+2025-03-03 16:36:18,130 - src.scrapers.afdb_scraper - INFO - No next page found
+2025-03-03 16:36:18,130 - src.scrapers.afdb_scraper - INFO - No more pages to process
+2025-03-03 16:36:18,131 - src.scrapers.afdb_scraper - INFO - Total rows collected: 7
+2025-03-03 16:36:18,357 - __main__ - INFO - AfDB data saved to C:\Users\rabieii.amin\Desktop\tender_detection\data\processed\AfDB_data_20250303_163618.csv
+2025-03-03 16:36:18,357 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-03-03 16:36:18,357 - src.scrapers.aiib_scraper - INFO - Today's date in AIIB format: Mar 03, 2025
+2025-03-03 16:36:22,161 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-03-03 16:36:24,168 - src.scrapers.aiib_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-03 16:36:24,169 - src.scrapers.aiib_scraper - INFO - No matching rows found
+2025-03-03 16:36:24,323 - __main__ - INFO - No data to save for AIIB
+2025-03-03 16:36:24,323 - __main__ - INFO - Scraping completed. Total rows extracted: 7
+2025-03-04 09:57:01,111 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-03-04 09:57:01,286 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 09:57:01,287 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-03-04 09:57:01,433 - __main__ - INFO - No data to save for WorldBank
+2025-03-04 09:57:01,433 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-03-04 09:57:21,576 - src.scrapers.ebrd_scraper - INFO - Posts table found
+2025-03-04 09:57:21,576 - src.scrapers.ebrd_scraper - INFO - Processing page 1
+2025-03-04 09:57:21,590 - src.scrapers.ebrd_scraper - INFO - Found 10 rows to check for today's date
+2025-03-04 09:57:21,654 - src.scrapers.ebrd_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 09:57:21,654 - src.scrapers.ebrd_scraper - INFO - No matching rows found
+2025-03-04 09:57:21,780 - __main__ - INFO - No data to save for EBRD
+2025-03-04 09:57:27,090 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-03-04 09:57:27,115 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-03-04 09:57:27,120 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-03-04 09:57:27,121 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-03-04 09:57:27,121 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-03-04 09:57:27,122 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-03-04 09:57:27,123 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-03-04 09:57:27,124 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-03-04 09:57:27,126 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-03-04 09:57:33,115 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:57:33,115 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-03-04 09:57:33,116 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-03-04 09:57:33,117 - src.scrapers.tenders_info_scraper - INFO - Processing tender: W   Execution Of Works Olsztyn Branch Szczytno Obi...
+2025-03-04 09:57:33,119 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-03-04 09:57:33,121 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-03-04 09:57:33,122 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-03-04 09:57:38,816 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:57:38,816 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-03-04 09:57:38,827 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-03-04 09:57:38,827 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-03-04 09:57:38,828 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-03-04 09:57:39,000 - __main__ - INFO - No data to save for TendersInfo
+2025-03-04 09:57:44,440 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-03-04 09:57:44,782 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-03-04 09:57:49,091 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-03-04 09:57:49,091 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-03-04 09:57:49,410 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-03-04 09:57:53,662 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-03-04 09:57:53,662 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-03-04 09:57:53,755 - src.scrapers.isdb_scraper - INFO - Found 15 tender URLs on current page
+2025-03-04 09:57:53,758 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-03-04 09:57:53,758 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-03-04 09:57:53,758 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 115
+2025-03-04 09:57:53,759 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-03-04 09:58:02,895 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:02,895 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-03-04 09:58:11,758 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:11,758 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-03-04 09:58:20,433 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:20,433 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-03-04 09:58:29,901 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:29,901 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-03-04 09:58:38,971 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:38,971 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-03-04 09:58:48,842 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:48,842 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-03-04 09:58:59,671 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:58:59,671 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-03-04 09:59:09,763 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:59:09,763 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-03-04 09:59:19,152 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:59:19,152 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-03-04 09:59:29,256 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:59:29,256 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-03-04 09:59:38,014 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:59:38,014 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (5 tenders)
+2025-03-04 09:59:42,763 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 09:59:42,764 - src.scrapers.isdb_scraper - INFO - No matching tenders found
+2025-03-04 09:59:42,941 - __main__ - INFO - No data to save for ISDB
+2025-03-04 09:59:42,941 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-03-04 09:59:42,942 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 04-Mar-2025
+2025-03-04 09:59:47,139 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-03-04 09:59:47,222 - src.scrapers.afdb_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 09:59:47,223 - src.scrapers.afdb_scraper - INFO - No matching rows found
+2025-03-04 09:59:47,359 - __main__ - INFO - No data to save for AfDB
+2025-03-04 09:59:47,359 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-03-04 09:59:47,360 - src.scrapers.aiib_scraper - INFO - Today's date in AIIB format: Mar 04, 2025
+2025-03-04 09:59:51,275 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-03-04 09:59:53,241 - src.scrapers.aiib_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 09:59:53,241 - src.scrapers.aiib_scraper - INFO - No matching rows found
+2025-03-04 09:59:53,380 - __main__ - INFO - No data to save for AIIB
+2025-03-04 09:59:53,381 - src.scrapers.afd_scraper - INFO - AFD scraper initialized with base domain: https://tenders-afd.dgmarket.com
+2025-03-04 09:59:53,382 - src.scrapers.afd_scraper - INFO - Today's date in AFD format: Mar 04, 2025
+2025-03-04 09:59:58,529 - src.scrapers.afd_scraper - INFO - Processing page 1
+2025-03-04 09:59:58,638 - src.scrapers.afd_scraper - INFO - No matching dates found on page 1, checking next page
+2025-03-04 09:59:59,983 - src.scrapers.afd_scraper - INFO - Navigated to next page
+2025-03-04 09:59:59,983 - src.scrapers.afd_scraper - INFO - Processing page 2
+2025-03-04 10:00:00,052 - src.scrapers.afd_scraper - INFO - No matching dates found on page 2, checking next page
+2025-03-04 10:00:01,568 - src.scrapers.afd_scraper - INFO - Navigated to next page
+2025-03-04 10:00:01,568 - src.scrapers.afd_scraper - INFO - Processing page 3
+2025-03-04 10:00:01,626 - src.scrapers.afd_scraper - INFO - No matching dates found on page 3, checking next page
+2025-03-04 10:00:02,818 - src.scrapers.afd_scraper - INFO - Navigated to next page
+2025-03-04 10:00:02,819 - src.scrapers.afd_scraper - INFO - Processing page 4
+2025-03-04 10:00:02,879 - src.scrapers.afd_scraper - INFO - No matching dates found on page 4, checking next page
+2025-03-04 10:00:04,146 - src.scrapers.afd_scraper - INFO - Navigated to next page
+2025-03-04 10:00:04,146 - src.scrapers.afd_scraper - INFO - Processing page 5
+2025-03-04 10:00:04,162 - src.scrapers.afd_scraper - INFO - No matching dates found on page 5, checking next page
+2025-03-04 10:01:05,273 - src.scrapers.afd_scraper - ERROR - Error checking next page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("table#notice") to be visible
+
+2025-03-04 10:01:05,273 - src.scrapers.afd_scraper - INFO - No more pages to process
+2025-03-04 10:01:05,274 - src.scrapers.afd_scraper - INFO - No matching rows found
+2025-03-04 10:01:05,410 - __main__ - INFO - No data to save for AFD
+2025-03-04 10:01:05,411 - __main__ - INFO - Scraping completed. Total rows extracted: 0
+2025-03-04 10:09:57,103 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-03-04 10:09:57,281 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 10:09:57,283 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-03-04 10:09:57,405 - __main__ - INFO - No data to save for WorldBank
+2025-03-04 10:09:57,405 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-03-04 10:10:01,133 - src.scrapers.ebrd_scraper - INFO - Posts table found
+2025-03-04 10:10:01,133 - src.scrapers.ebrd_scraper - INFO - Processing page 1
+2025-03-04 10:10:01,149 - src.scrapers.ebrd_scraper - INFO - Found 10 rows to check for today's date
+2025-03-04 10:10:01,225 - src.scrapers.ebrd_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 10:10:01,226 - src.scrapers.ebrd_scraper - INFO - No matching rows found
+2025-03-04 10:10:01,356 - __main__ - INFO - No data to save for EBRD
+2025-03-04 10:10:07,021 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-03-04 10:10:07,045 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-03-04 10:10:07,051 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-03-04 10:10:07,051 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-03-04 10:10:07,051 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-03-04 10:10:07,052 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-03-04 10:10:07,054 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-03-04 10:10:07,055 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-03-04 10:10:07,057 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-03-04 10:10:12,450 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:10:12,450 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-03-04 10:10:12,451 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-03-04 10:10:12,452 - src.scrapers.tenders_info_scraper - INFO - Processing tender: W   Execution Of Works Olsztyn Branch Szczytno Obi...
+2025-03-04 10:10:12,454 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-03-04 10:10:12,456 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-03-04 10:10:12,458 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-03-04 10:10:17,825 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:10:17,825 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-03-04 10:10:17,838 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-03-04 10:10:17,838 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-03-04 10:10:17,839 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-03-04 10:10:17,990 - __main__ - INFO - No data to save for TendersInfo
+2025-03-04 10:10:23,357 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-03-04 10:10:23,681 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-03-04 10:10:25,256 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-03-04 10:10:25,256 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-03-04 10:10:25,553 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-03-04 10:10:27,117 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-03-04 10:10:27,117 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-03-04 10:10:27,215 - src.scrapers.isdb_scraper - INFO - Found 15 tender URLs on current page
+2025-03-04 10:10:27,218 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-03-04 10:10:27,218 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-03-04 10:10:27,218 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 115
+2025-03-04 10:10:27,219 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-03-04 10:10:31,513 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:10:31,514 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-03-04 10:10:36,267 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:10:36,268 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-03-04 10:10:42,682 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:10:42,683 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-03-04 10:10:54,320 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:10:54,320 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-03-04 10:11:02,639 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:02,639 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-03-04 10:11:09,817 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:09,817 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-03-04 10:11:16,981 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:16,981 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-03-04 10:11:26,815 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:26,815 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-03-04 10:11:35,537 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:35,538 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-03-04 10:11:53,331 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:53,331 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-03-04 10:11:57,966 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:11:57,966 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (5 tenders)
+2025-03-04 10:12:00,842 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-03-04 10:12:00,843 - src.scrapers.isdb_scraper - INFO - No matching tenders found
+2025-03-04 10:12:01,030 - __main__ - INFO - No data to save for ISDB
+2025-03-04 10:12:01,030 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-03-04 10:12:01,031 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 04-Mar-2025
+2025-03-04 10:12:06,115 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-03-04 10:12:06,201 - src.scrapers.afdb_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 10:12:06,202 - src.scrapers.afdb_scraper - INFO - No matching rows found
+2025-03-04 10:12:06,326 - __main__ - INFO - No data to save for AfDB
+2025-03-04 10:12:06,326 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-03-04 10:12:06,327 - src.scrapers.aiib_scraper - INFO - Today's date in AIIB format: Mar 04, 2025
+2025-03-04 10:12:12,219 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-03-04 10:12:14,206 - src.scrapers.aiib_scraper - INFO - No matching dates found on page 1, stopping search
+2025-03-04 10:12:14,207 - src.scrapers.aiib_scraper - INFO - No matching rows found
+2025-03-04 10:12:14,349 - __main__ - INFO - No data to save for AIIB
+2025-03-04 10:12:14,349 - src.scrapers.afd_scraper - INFO - AFD scraper initialized with base domain: https://tenders-afd.dgmarket.com
+2025-03-04 10:12:14,349 - src.scrapers.afd_scraper - INFO - Today's date in AFD format: Mar 04, 2025
+2025-03-04 10:12:19,244 - src.scrapers.afd_scraper - INFO - Processing page 1
+2025-03-04 10:12:19,359 - src.scrapers.afd_scraper - INFO - Found dates older than target on page 1, stopping search
+2025-03-04 10:12:19,360 - src.scrapers.afd_scraper - INFO - No matching rows found
+2025-03-04 10:12:19,485 - __main__ - INFO - No data to save for AFD
+2025-03-04 10:12:19,485 - __main__ - INFO - Scraping completed. Total rows extracted: 0
