@@ -686,3 +686,607 @@ Call log:
 2025-03-04 10:12:19,360 - src.scrapers.afd_scraper - INFO - No matching rows found
 2025-03-04 10:12:19,485 - __main__ - INFO - No data to save for AFD
 2025-03-04 10:12:19,485 - __main__ - INFO - Scraping completed. Total rows extracted: 0
+2025-04-06 10:10:28,954 - __main__ - ERROR - Error running WorldBank scraper: Browser.close: Connection closed while reading from the driver
+2025-04-06 10:10:28,954 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-04-06 10:10:29,047 - __main__ - ERROR - Error running EBRD scraper: 'EBRDScraper' object has no attribute 'context'
+2025-04-06 10:10:29,324 - __main__ - ERROR - Error running TendersInfo scraper: 'TendersInfoScraper' object has no attribute 'context'
+2025-04-06 10:10:29,324 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() done, defined at C:\Users\rabieii.amin\Desktop\tender_detection\main.py:41> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\ProgramData\Anaconda3\envs\detection\Lib\site-packages\playwright\_impl\_connection.py:198, <1 more>, gather.<locals>._done_callback() at C:\ProgramData\Anaconda3\envs\detection\Lib\asyncio\tasks.py:767]>
+2025-04-06 10:10:29,325 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-14' coro=<Connection.run.<locals>.init() running at C:\ProgramData\Anaconda3\envs\detection\Lib\site-packages\playwright\_impl\_connection.py:277> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\ProgramData\Anaconda3\envs\detection\Lib\site-packages\playwright\_impl\_connection.py:198]>
+2025-04-06 10:10:29,327 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<Connection.run() running at C:\ProgramData\Anaconda3\envs\detection\Lib\site-packages\playwright\_impl\_connection.py:281> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-06 10:10:52,825 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-04-06 10:10:52,985 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-06 10:10:52,991 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-04-06 10:10:53,125 - __main__ - INFO - No data to save for WorldBank
+2025-04-06 10:10:53,125 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-04-06 10:11:56,787 - src.scrapers.ebrd_scraper - ERROR - Error during scraping: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tbody#posts") to be visible
+
+2025-04-06 10:11:56,910 - __main__ - ERROR - Error running EBRD scraper: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tbody#posts") to be visible
+
+2025-04-06 10:12:03,244 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-04-06 10:12:03,268 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-04-06 10:12:03,273 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-04-06 10:12:03,273 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-04-06 10:12:03,274 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-04-06 10:12:03,275 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-06 10:12:03,276 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-06 10:12:03,277 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-06 10:12:03,279 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-06 10:12:09,174 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:12:09,174 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-04-06 10:12:09,175 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-04-06 10:12:09,177 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-04-06 10:12:09,178 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-04-06 10:12:09,180 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-04-06 10:12:09,181 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provide The Test...
+2025-04-06 10:12:14,946 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:12:14,947 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-04-06 10:12:14,959 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-04-06 10:12:14,959 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-04-06 10:12:14,960 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-04-06 10:12:15,131 - __main__ - INFO - No data to save for TendersInfo
+2025-04-06 10:12:21,134 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-04-06 10:12:21,447 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-06 10:12:25,329 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-06 10:12:25,330 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-04-06 10:12:25,629 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-06 10:12:29,778 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-06 10:12:29,779 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-04-06 10:12:29,958 - src.scrapers.isdb_scraper - INFO - Found 32 tender URLs on current page
+2025-04-06 10:12:29,961 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-04-06 10:12:29,961 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-04-06 10:12:29,961 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 132
+2025-04-06 10:12:29,962 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-04-06 10:12:39,435 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:12:39,435 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-04-06 10:12:48,259 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:12:48,259 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-04-06 10:12:58,048 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:12:58,048 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-04-06 10:13:08,619 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:13:08,619 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-04-06 10:13:19,728 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:13:19,729 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-04-06 10:13:29,323 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:13:29,323 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-04-06 10:13:40,500 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:13:40,500 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-04-06 10:13:52,656 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:13:52,657 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-04-06 10:14:03,262 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:14:03,262 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-04-06 10:14:14,112 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:14:14,112 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-04-06 10:14:24,876 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:14:24,876 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (10 tenders)
+2025-04-06 10:14:34,290 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:14:34,291 - src.scrapers.isdb_scraper - INFO - Processing batch 13 (10 tenders)
+2025-04-06 10:14:43,746 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:14:43,746 - src.scrapers.isdb_scraper - INFO - Processing batch 14 (2 tenders)
+2025-04-06 10:14:48,054 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:14:48,054 - src.scrapers.isdb_scraper - INFO - No matching tenders found
+2025-04-06 10:14:48,233 - __main__ - INFO - No data to save for ISDB
+2025-04-06 10:14:48,233 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-04-06 10:14:48,234 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 06-Apr-2025
+2025-04-06 10:14:51,860 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-04-06 10:14:51,881 - src.scrapers.afdb_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-06 10:14:51,881 - src.scrapers.afdb_scraper - INFO - No matching rows found
+2025-04-06 10:14:52,002 - __main__ - INFO - No data to save for AfDB
+2025-04-06 10:14:52,003 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-04-06 10:14:52,004 - src.scrapers.aiib_scraper - INFO - Today's date in AIIB format: Apr 06, 2025
+2025-04-06 10:14:55,562 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-04-06 10:14:57,482 - src.scrapers.aiib_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-06 10:14:57,482 - src.scrapers.aiib_scraper - INFO - No matching rows found
+2025-04-06 10:14:57,617 - __main__ - INFO - No data to save for AIIB
+2025-04-06 10:14:57,618 - src.scrapers.afd_scraper - INFO - AFD scraper initialized with base domain: https://tenders-afd.dgmarket.com
+2025-04-06 10:14:57,619 - src.scrapers.afd_scraper - INFO - Today's date in AFD format: Apr 06, 2025
+2025-04-06 10:15:03,215 - src.scrapers.afd_scraper - INFO - Processing page 1
+2025-04-06 10:15:03,298 - src.scrapers.afd_scraper - INFO - Found dates older than target on page 1, stopping search
+2025-04-06 10:15:03,299 - src.scrapers.afd_scraper - INFO - No matching rows found
+2025-04-06 10:15:03,413 - __main__ - INFO - No data to save for AFD
+2025-04-06 10:15:03,413 - __main__ - INFO - Scraping completed. Total rows extracted: 0
+2025-04-06 10:16:45,172 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-04-06 10:16:45,362 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-06 10:16:45,364 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-04-06 10:16:45,509 - __main__ - INFO - No data to save for WorldBank
+2025-04-06 10:16:45,509 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-04-06 10:18:15,059 - src.scrapers.ebrd_scraper - ERROR - Error during scraping: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tbody#posts") to be visible
+
+2025-04-06 10:18:15,182 - __main__ - ERROR - Error running EBRD scraper: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tbody#posts") to be visible
+
+2025-04-06 10:18:21,930 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-04-06 10:18:21,958 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-04-06 10:18:21,963 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-04-06 10:18:21,963 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-04-06 10:18:21,964 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-04-06 10:18:21,965 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-06 10:18:21,966 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-06 10:18:21,968 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-06 10:18:21,970 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-06 10:18:27,476 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:18:27,476 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-04-06 10:18:27,478 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-04-06 10:18:27,479 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-04-06 10:18:27,481 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-04-06 10:18:27,482 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-04-06 10:18:27,484 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provide The Test...
+2025-04-06 10:18:33,325 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:18:33,325 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-04-06 10:18:33,336 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-04-06 10:18:33,337 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-04-06 10:18:33,338 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-04-06 10:18:33,511 - __main__ - INFO - No data to save for TendersInfo
+2025-04-06 10:18:39,453 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-04-06 10:18:39,763 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-06 10:18:43,860 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-06 10:18:43,860 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-04-06 10:18:44,154 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-06 10:18:46,202 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-06 10:18:46,203 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-04-06 10:18:46,380 - src.scrapers.isdb_scraper - INFO - Found 32 tender URLs on current page
+2025-04-06 10:18:46,382 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-04-06 10:18:46,383 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-04-06 10:18:46,383 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 132
+2025-04-06 10:18:46,383 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-04-06 10:18:57,461 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:18:57,461 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-04-06 10:19:06,913 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:19:06,914 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-04-06 10:19:16,520 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:19:16,520 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-04-06 10:19:26,071 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:19:26,072 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-04-06 10:19:36,219 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:19:36,220 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-04-06 10:19:46,400 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:19:46,400 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-04-06 10:19:56,719 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:19:56,719 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-04-06 10:20:06,331 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:20:06,331 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-04-06 10:20:18,256 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:20:18,256 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-04-06 10:20:32,926 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:20:32,927 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-04-06 10:20:45,296 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:20:45,297 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (10 tenders)
+2025-04-06 10:20:56,921 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:20:56,922 - src.scrapers.isdb_scraper - INFO - Processing batch 13 (10 tenders)
+2025-04-06 10:21:07,378 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:21:07,378 - src.scrapers.isdb_scraper - INFO - Processing batch 14 (2 tenders)
+2025-04-06 10:21:12,072 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-06 10:21:12,073 - src.scrapers.isdb_scraper - INFO - No matching tenders found
+2025-04-06 10:21:12,243 - __main__ - INFO - No data to save for ISDB
+2025-04-06 10:21:12,244 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-04-06 10:21:12,245 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 06-Apr-2025
+2025-04-06 10:21:16,110 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-04-06 10:21:16,134 - src.scrapers.afdb_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-06 10:21:16,135 - src.scrapers.afdb_scraper - INFO - No matching rows found
+2025-04-06 10:21:16,259 - __main__ - INFO - No data to save for AfDB
+2025-04-06 10:21:16,259 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-04-06 10:21:16,260 - src.scrapers.aiib_scraper - INFO - Today's date in AIIB format: Apr 06, 2025
+2025-04-06 10:21:20,690 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-04-06 10:21:22,560 - src.scrapers.aiib_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-06 10:21:22,561 - src.scrapers.aiib_scraper - INFO - No matching rows found
+2025-04-06 10:21:22,692 - __main__ - INFO - No data to save for AIIB
+2025-04-06 10:21:22,692 - src.scrapers.afd_scraper - INFO - AFD scraper initialized with base domain: https://tenders-afd.dgmarket.com
+2025-04-06 10:21:22,693 - src.scrapers.afd_scraper - INFO - Today's date in AFD format: Apr 06, 2025
+2025-04-06 10:21:28,431 - src.scrapers.afd_scraper - INFO - Processing page 1
+2025-04-06 10:21:28,537 - src.scrapers.afd_scraper - INFO - Found dates older than target on page 1, stopping search
+2025-04-06 10:21:28,537 - src.scrapers.afd_scraper - INFO - No matching rows found
+2025-04-06 10:21:28,660 - __main__ - INFO - No data to save for AFD
+2025-04-06 10:21:28,660 - __main__ - INFO - Scraping completed. Total rows extracted: 0
+2025-04-19 16:09:09,324 - __main__ - ERROR - Error running WorldBank scraper: 'WorldBankScraper' object has no attribute 'context'
+2025-04-19 16:09:09,325 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-04-19 16:09:10,117 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-04-19 16:09:39,891 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-04-19 16:09:40,067 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-19 16:09:40,079 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-04-19 16:09:40,228 - __main__ - INFO - No data to save for WorldBank
+2025-04-19 16:09:40,228 - src.scrapers.ebrd_scraper - INFO - Base domain: https://www.ebrd.com
+2025-04-19 16:10:44,440 - src.scrapers.ebrd_scraper - ERROR - Error during scraping: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tbody#posts") to be visible
+
+2025-04-19 16:10:44,585 - __main__ - ERROR - Error running EBRD scraper: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tbody#posts") to be visible
+
+2025-04-19 16:10:50,899 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-04-19 16:10:50,928 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-04-19 16:10:50,933 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-04-19 16:10:50,933 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-04-19 16:10:50,934 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-04-19 16:10:50,935 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-19 16:10:50,936 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-19 16:10:50,937 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-19 16:10:50,941 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-19 16:10:58,365 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:10:58,365 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-04-19 16:10:58,366 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-04-19 16:10:58,368 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-04-19 16:10:58,370 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-04-19 16:10:58,371 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-04-19 16:10:58,373 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provide The Test...
+2025-04-19 16:11:05,217 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:11:05,218 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-04-19 16:11:05,230 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-04-19 16:11:05,230 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-04-19 16:11:05,231 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-04-19 16:11:05,389 - __main__ - INFO - No data to save for TendersInfo
+2025-04-19 16:11:11,046 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-04-19 16:11:11,400 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-19 16:11:15,304 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-19 16:11:15,305 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-04-19 16:11:15,628 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-19 16:11:19,552 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-19 16:11:19,553 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-04-19 16:11:19,796 - src.scrapers.isdb_scraper - INFO - Found 42 tender URLs on current page
+2025-04-19 16:11:19,800 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-04-19 16:11:19,800 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-04-19 16:11:19,800 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 142
+2025-04-19 16:11:19,800 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-04-19 16:11:30,623 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:11:30,623 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-04-19 16:11:41,914 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:11:41,914 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-04-19 16:11:52,945 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:11:52,945 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-04-19 16:12:04,897 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:12:04,898 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-04-19 16:12:15,384 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:12:15,384 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-04-19 16:12:28,808 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:12:28,808 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-04-19 16:12:45,119 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:12:45,119 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-04-19 16:13:03,072 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:13:03,072 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-04-19 16:13:15,963 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:13:15,963 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-04-19 16:13:29,569 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:13:29,569 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-04-19 16:13:42,167 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:13:42,167 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (10 tenders)
+2025-04-19 16:13:57,147 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:13:57,147 - src.scrapers.isdb_scraper - INFO - Processing batch 13 (10 tenders)
+2025-04-19 16:14:07,805 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:14:07,805 - src.scrapers.isdb_scraper - INFO - Processing batch 14 (10 tenders)
+2025-04-19 16:14:19,862 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:14:19,862 - src.scrapers.isdb_scraper - INFO - Processing batch 15 (2 tenders)
+2025-04-19 16:14:23,846 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-19 16:14:23,847 - src.scrapers.isdb_scraper - INFO - No matching tenders found
+2025-04-19 16:14:23,995 - __main__ - INFO - No data to save for ISDB
+2025-04-19 16:14:23,995 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-04-19 16:14:23,996 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 19-Apr-2025
+2025-04-19 16:14:27,943 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-04-19 16:14:27,962 - src.scrapers.afdb_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-19 16:14:27,962 - src.scrapers.afdb_scraper - INFO - No matching rows found
+2025-04-19 16:14:28,094 - __main__ - INFO - No data to save for AfDB
+2025-04-19 16:14:28,094 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-04-19 16:14:28,095 - src.scrapers.aiib_scraper - INFO - Today's date in AIIB format: Apr 19, 2025
+2025-04-19 16:14:32,537 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-04-19 16:14:34,696 - src.scrapers.aiib_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-19 16:14:34,697 - src.scrapers.aiib_scraper - INFO - No matching rows found
+2025-04-19 16:14:34,880 - __main__ - INFO - No data to save for AIIB
+2025-04-19 16:14:34,880 - src.scrapers.afd_scraper - INFO - AFD scraper initialized with base domain: https://tenders-afd.dgmarket.com
+2025-04-19 16:14:34,882 - src.scrapers.afd_scraper - INFO - Date range: Apr 12, 2025 to Apr 19, 2025
+2025-04-19 16:14:40,716 - src.scrapers.afd_scraper - INFO - Processing page 1
+2025-04-19 16:14:40,818 - src.scrapers.afd_scraper - INFO - Found dates in our range on page 1, extracting data
+2025-04-19 16:14:40,833 - src.scrapers.afd_scraper - INFO - Found 20 rows in the table
+2025-04-19 16:14:40,833 - src.scrapers.afd_scraper - INFO - Processing batch 1 (5 rows)
+2025-04-19 16:14:40,891 - src.scrapers.afd_scraper - INFO - Found matching tender: Audit du projet FAME
+2025-04-19 16:14:40,892 - src.scrapers.afd_scraper - INFO - Found matching tender: Procès-verbal d'ouverture : Acquisition de six (06) bus dont trois (03) de 30 places, un (01) de 50 places et deux (02) de 70 places au profit de OBSSU, UNSTIM, SGDS et MDN
+2025-04-19 16:14:40,895 - src.scrapers.afd_scraper - INFO - Found matching tender: Avis d’attribution provisoire relative à l’acquisition d’outillages électriques de la composante « Travaux » du PROMER
+2025-04-19 16:14:40,899 - src.scrapers.afd_scraper - INFO - Found matching tender: Projet de construction d’un hôpital pluridisciplinaire dans la ville de Gafse en Tunisie
+2025-04-19 16:14:40,901 - src.scrapers.afd_scraper - INFO - Found matching tender: Procurement Of Prosseding, Not Book, A
+2025-04-19 16:14:42,453 - src.scrapers.afd_scraper - INFO - Found 5 matching rows in this batch
+2025-04-19 16:14:42,453 - src.scrapers.afd_scraper - INFO - Processing batch 2 (5 rows)
+2025-04-19 16:14:42,508 - src.scrapers.afd_scraper - INFO - Found matching tender: AVIS DE PREQUALIFICATION N°S66/2025 RELATIF AUX TRAVAUX DE RENFORCEMENT DE LA ROUTE DU NORD : SECTIONS OUANGOLODOUGOU – FRONTIERE MALI (100 KM), OUANGOLODOUGOU – FRONTIERE BURKINA FASO (32 KM) ET 30 KM DE VOIRIES URBAINES ASSOCIEES
+2025-04-19 16:14:42,510 - src.scrapers.afd_scraper - INFO - Found matching tender: SYP-2025-0096 - ETUDE DE FAISABILITE POUR L’ANALYSE DE L’ECOSYSTEME ENTREPRENEURIAL AU GHANA ET LA STRUCTURATION D’UN PROJET D’APPUI A L’ENTREPRENEURIAT FEMININ
+2025-04-19 16:14:42,511 - src.scrapers.afd_scraper - INFO - Found matching tender: Design, Supply, and Installation of a Wind farm plant in Tubas.
+2025-04-19 16:14:43,890 - src.scrapers.afd_scraper - INFO - Found 4 matching rows in this batch
+2025-04-19 16:14:43,891 - src.scrapers.afd_scraper - INFO - Processing batch 3 (5 rows)
+2025-04-19 16:14:43,915 - src.scrapers.afd_scraper - INFO - Found 0 matching rows in this batch
+2025-04-19 16:14:43,915 - src.scrapers.afd_scraper - INFO - Processing batch 4 (5 rows)
+2025-04-19 16:14:43,939 - src.scrapers.afd_scraper - INFO - Found 0 matching rows in this batch
+2025-04-19 16:14:43,939 - src.scrapers.afd_scraper - INFO - Found 9 matching rows on page 1
+2025-04-19 16:14:43,940 - src.scrapers.afd_scraper - INFO - Found dates older than our range, stopping search
+2025-04-19 16:14:43,947 - src.scrapers.afd_scraper - INFO - Total rows collected: 9
+2025-04-19 16:14:44,090 - __main__ - INFO - AFD data saved to C:\Users\rabieii.amin\Desktop\tender_detection\data\processed\AFD_data_20250419_161444.csv
+2025-04-19 16:14:44,091 - __main__ - INFO - Scraping completed. Total rows extracted: 9
+2025-04-21 12:24:06,727 - src.scrapers.world_bank_scraper - INFO - Processing page 1
+2025-04-21 12:24:06,907 - src.scrapers.world_bank_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-21 12:24:06,919 - src.scrapers.world_bank_scraper - INFO - No matching rows found
+2025-04-21 12:24:07,064 - __main__ - INFO - No data to save for WorldBank
+2025-04-21 12:24:07,064 - src.scrapers.ebrd_scraper - INFO - EBRD scraper initialized with base domain: https://www.ebrd.com
+2025-04-21 12:24:07,065 - src.scrapers.ebrd_scraper - INFO - Date range: 14 Apr 2025 to 21 Apr 2025
+2025-04-21 12:24:10,480 - src.scrapers.ebrd_scraper - INFO - Processing page 1
+2025-04-21 12:24:10,511 - src.scrapers.ebrd_scraper - INFO - Found 4 tender cards
+2025-04-21 12:24:10,511 - src.scrapers.ebrd_scraper - INFO - Processing batch 1 (4 tenders)
+2025-04-21 12:24:10,527 - src.scrapers.ebrd_scraper - INFO - Skipping tender with issue date 20 Mar 2025 (outside range)
+2025-04-21 12:24:10,527 - src.scrapers.ebrd_scraper - INFO - Skipping tender with issue date 19 Nov 2024 (outside range)
+2025-04-21 12:24:10,528 - src.scrapers.ebrd_scraper - INFO - Skipping tender with issue date 11 Sep 2020 (outside range)
+2025-04-21 12:24:10,528 - src.scrapers.ebrd_scraper - INFO - Skipping tender with issue date 02 Dec 2024 (outside range)
+2025-04-21 12:24:10,529 - src.scrapers.ebrd_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:24:10,529 - src.scrapers.ebrd_scraper - INFO - Found 0 matching tenders on page 1
+2025-04-21 12:24:10,532 - src.scrapers.ebrd_scraper - INFO - No next page found
+2025-04-21 12:24:10,532 - src.scrapers.ebrd_scraper - INFO - No more pages to process
+2025-04-21 12:24:10,533 - src.scrapers.ebrd_scraper - INFO - No matching tenders found
+2025-04-21 12:24:10,673 - __main__ - INFO - No data to save for EBRD
+2025-04-21 12:24:17,453 - src.scrapers.tenders_info_scraper - INFO - Processing page 1
+2025-04-21 12:24:17,477 - src.scrapers.tenders_info_scraper - INFO - Global tenders section found
+2025-04-21 12:24:17,484 - src.scrapers.tenders_info_scraper - INFO - Found 10 global tender links
+2025-04-21 12:24:17,484 - src.scrapers.tenders_info_scraper - INFO - Processing batch 1 (5 tenders)
+2025-04-21 12:24:17,484 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provision For A Dynamic Purchasing System For Pass...
+2025-04-21 12:24:17,485 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-21 12:24:17,487 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Apprenticeship Training Provision Dps...
+2025-04-21 12:24:17,488 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-21 12:24:17,490 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Sale Of Scrap Lead Acid Batteries...
+2025-04-21 12:24:23,851 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:24:23,852 - src.scrapers.tenders_info_scraper - INFO - Processing batch 2 (5 tenders)
+2025-04-21 12:24:23,853 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Perform Inspections And Tests For Electrical Distr...
+2025-04-21 12:24:23,855 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Houma Navigation Canal Terrebonne Bay And Cat Isla...
+2025-04-21 12:24:23,857 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Supply Of Dbs Food...
+2025-04-21 12:24:23,859 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Road Marking Approved List barrow Eden And South L...
+2025-04-21 12:24:23,860 - src.scrapers.tenders_info_scraper - INFO - Processing tender: Provide The Test...
+2025-04-21 12:24:29,608 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:24:29,608 - src.scrapers.tenders_info_scraper - INFO - Found 0 matching tenders on page 1
+2025-04-21 12:24:29,621 - src.scrapers.tenders_info_scraper - INFO - No next page found
+2025-04-21 12:24:29,621 - src.scrapers.tenders_info_scraper - INFO - No more pages to process
+2025-04-21 12:24:29,622 - src.scrapers.tenders_info_scraper - INFO - No matching tenders found
+2025-04-21 12:24:29,800 - __main__ - INFO - No data to save for TendersInfo
+2025-04-21 12:24:29,800 - src.scrapers.isdb_scraper - INFO - ISDB scraper initialized with base domain: https://www.isdb.org
+2025-04-21 12:24:29,801 - src.scrapers.isdb_scraper - INFO - Date range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:35,558 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 1
+2025-04-21 12:24:35,905 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-21 12:24:41,144 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-21 12:24:41,144 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 2
+2025-04-21 12:24:41,444 - src.scrapers.isdb_scraper - INFO - Found 50 tender URLs on current page
+2025-04-21 12:24:44,893 - src.scrapers.isdb_scraper - INFO - Navigated to next page
+2025-04-21 12:24:44,893 - src.scrapers.isdb_scraper - INFO - Collecting URLs from page 3
+2025-04-21 12:24:45,168 - src.scrapers.isdb_scraper - INFO - Found 42 tender URLs on current page
+2025-04-21 12:24:45,171 - src.scrapers.isdb_scraper - INFO - No next page found
+2025-04-21 12:24:45,171 - src.scrapers.isdb_scraper - INFO - No more pages to process
+2025-04-21 12:24:45,171 - src.scrapers.isdb_scraper - INFO - Total tender URLs collected: 142
+2025-04-21 12:24:45,171 - src.scrapers.isdb_scraper - INFO - Processing batch 1 (10 tenders)
+2025-04-21 12:24:49,395 - src.scrapers.isdb_scraper - INFO - Issue date: 2 February 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:49,645 - src.scrapers.isdb_scraper - INFO - Issue date: 28 December 2022, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:49,688 - src.scrapers.isdb_scraper - INFO - Issue date: 28 December 2022, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:49,871 - src.scrapers.isdb_scraper - INFO - Issue date: 13 February 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:50,540 - src.scrapers.isdb_scraper - INFO - Issue date: 10 January 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:53,339 - src.scrapers.isdb_scraper - INFO - Issue date: 3 November 2022, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:54,579 - src.scrapers.isdb_scraper - INFO - Issue date: 12 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:55,202 - src.scrapers.isdb_scraper - INFO - Issue date: 3 January 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:24:56,351 - src.scrapers.isdb_scraper - INFO - Issue date: 3 January 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:01,064 - src.scrapers.isdb_scraper - INFO - Issue date: 28 February 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:01,077 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:25:01,077 - src.scrapers.isdb_scraper - INFO - Processing batch 2 (10 tenders)
+2025-04-21 12:25:04,871 - src.scrapers.isdb_scraper - INFO - Issue date: 16 December 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:05,114 - src.scrapers.isdb_scraper - INFO - Issue date: 25 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:05,387 - src.scrapers.isdb_scraper - INFO - Issue date: 29 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:06,007 - src.scrapers.isdb_scraper - INFO - Issue date: 16 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:06,642 - src.scrapers.isdb_scraper - INFO - Issue date: 3 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:07,256 - src.scrapers.isdb_scraper - INFO - Issue date: 16 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:08,678 - src.scrapers.isdb_scraper - INFO - Issue date: 5 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:09,399 - src.scrapers.isdb_scraper - INFO - Issue date: 19 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:09,506 - src.scrapers.isdb_scraper - INFO - Issue date: 11 December 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:10,629 - src.scrapers.isdb_scraper - INFO - Issue date: 13 March 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:10,641 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:25:10,642 - src.scrapers.isdb_scraper - INFO - Processing batch 3 (10 tenders)
+2025-04-21 12:25:14,379 - src.scrapers.isdb_scraper - INFO - Issue date: 28 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:14,978 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:15,618 - src.scrapers.isdb_scraper - INFO - Issue date: 16 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:16,242 - src.scrapers.isdb_scraper - INFO - Issue date: 16 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:17,088 - src.scrapers.isdb_scraper - INFO - Issue date: 29 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:17,507 - src.scrapers.isdb_scraper - INFO - Issue date: 21 March 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:18,004 - src.scrapers.isdb_scraper - INFO - Issue date: 12 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:18,637 - src.scrapers.isdb_scraper - INFO - Issue date: 28 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:20,291 - src.scrapers.isdb_scraper - INFO - Issue date: 14 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:24,174 - src.scrapers.isdb_scraper - INFO - Issue date: 8 December 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:24,185 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:25:24,185 - src.scrapers.isdb_scraper - INFO - Processing batch 4 (10 tenders)
+2025-04-21 12:25:27,807 - src.scrapers.isdb_scraper - INFO - Issue date: 26 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:28,415 - src.scrapers.isdb_scraper - INFO - Issue date: 4 April 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:28,459 - src.scrapers.isdb_scraper - INFO - Issue date: 1 April 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:28,908 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:29,588 - src.scrapers.isdb_scraper - INFO - Issue date: 11 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:30,201 - src.scrapers.isdb_scraper - INFO - Issue date: 21 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:31,455 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:32,460 - src.scrapers.isdb_scraper - INFO - Issue date: 9 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:32,912 - src.scrapers.isdb_scraper - INFO - Issue date: 21 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:33,417 - src.scrapers.isdb_scraper - INFO - Issue date: 21 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:33,431 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:25:33,431 - src.scrapers.isdb_scraper - INFO - Processing batch 5 (10 tenders)
+2025-04-21 12:25:37,412 - src.scrapers.isdb_scraper - INFO - Issue date: 26 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:38,412 - src.scrapers.isdb_scraper - INFO - Issue date: 11 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:38,669 - src.scrapers.isdb_scraper - INFO - Issue date: 24 April 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:38,888 - src.scrapers.isdb_scraper - INFO - Issue date: 18 April 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:42,113 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:42,555 - src.scrapers.isdb_scraper - INFO - Issue date: 15 April 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:42,727 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:42,983 - src.scrapers.isdb_scraper - INFO - Issue date: 13 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:43,018 - src.scrapers.isdb_scraper - INFO - Issue date: 28 April 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:46,221 - src.scrapers.isdb_scraper - INFO - Issue date: 16 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:46,222 - src.scrapers.isdb_scraper - INFO - Found matching tender with issue date: 16 April 2025
+2025-04-21 12:25:46,235 - src.scrapers.isdb_scraper - INFO - Found 1 matching tenders in this batch
+2025-04-21 12:25:46,236 - src.scrapers.isdb_scraper - INFO - Processing batch 6 (10 tenders)
+2025-04-21 12:25:50,454 - src.scrapers.isdb_scraper - INFO - Issue date: 24 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:50,701 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:50,851 - src.scrapers.isdb_scraper - INFO - Issue date: 2 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:53,032 - src.scrapers.isdb_scraper - INFO - Issue date: 13 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:54,623 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:55,279 - src.scrapers.isdb_scraper - INFO - Issue date: 11 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:55,641 - src.scrapers.isdb_scraper - INFO - Issue date: 10 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:25:58,824 - src.scrapers.isdb_scraper - INFO - Issue date: 16 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:00,353 - src.scrapers.isdb_scraper - INFO - Issue date: 16 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:01,271 - src.scrapers.isdb_scraper - INFO - Issue date: 3 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:01,282 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:26:01,282 - src.scrapers.isdb_scraper - INFO - Processing batch 7 (10 tenders)
+2025-04-21 12:26:05,540 - src.scrapers.isdb_scraper - INFO - Issue date: 27 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:06,166 - src.scrapers.isdb_scraper - INFO - Issue date: 21 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:06,787 - src.scrapers.isdb_scraper - INFO - Issue date: 27 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:08,134 - src.scrapers.isdb_scraper - INFO - Issue date: 15 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:08,135 - src.scrapers.isdb_scraper - INFO - Found matching tender with issue date: 15 April 2025
+2025-04-21 12:26:08,226 - src.scrapers.isdb_scraper - INFO - Issue date: 27 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:09,550 - src.scrapers.isdb_scraper - INFO - Issue date: 27 May 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:10,166 - src.scrapers.isdb_scraper - INFO - Issue date: 15 April 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:10,166 - src.scrapers.isdb_scraper - INFO - Found matching tender with issue date: 15 April 2025
+2025-04-21 12:26:10,836 - src.scrapers.isdb_scraper - INFO - Issue date: 3 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:11,767 - src.scrapers.isdb_scraper - INFO - Issue date: 6 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:12,380 - src.scrapers.isdb_scraper - INFO - Issue date: 6 November 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:12,393 - src.scrapers.isdb_scraper - INFO - Found 2 matching tenders in this batch
+2025-04-21 12:26:12,393 - src.scrapers.isdb_scraper - INFO - Processing batch 8 (10 tenders)
+2025-04-21 12:26:16,125 - src.scrapers.isdb_scraper - INFO - Issue date: 23 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:16,852 - src.scrapers.isdb_scraper - INFO - Issue date: 30 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:16,897 - src.scrapers.isdb_scraper - INFO - Issue date: 23 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:16,901 - src.scrapers.isdb_scraper - INFO - Issue date: 30 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:17,457 - src.scrapers.isdb_scraper - INFO - Issue date: 12 June 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:18,089 - src.scrapers.isdb_scraper - INFO - Issue date: 4 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:19,639 - src.scrapers.isdb_scraper - INFO - Issue date: 11 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:20,367 - src.scrapers.isdb_scraper - INFO - Issue date: 22 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:21,092 - src.scrapers.isdb_scraper - INFO - Issue date: 11 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:21,688 - src.scrapers.isdb_scraper - INFO - Issue date: 24 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:21,701 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:26:21,702 - src.scrapers.isdb_scraper - INFO - Processing batch 9 (10 tenders)
+2025-04-21 12:26:25,732 - src.scrapers.isdb_scraper - INFO - Issue date: 30 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:26,585 - src.scrapers.isdb_scraper - INFO - Issue date: 29 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:27,231 - src.scrapers.isdb_scraper - INFO - Issue date: 30 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:27,454 - src.scrapers.isdb_scraper - INFO - Issue date: 30 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:28,487 - src.scrapers.isdb_scraper - INFO - Issue date: 30 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:29,380 - src.scrapers.isdb_scraper - INFO - Issue date: 10 July 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:31,620 - src.scrapers.isdb_scraper - INFO - Issue date: 14 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:32,072 - src.scrapers.isdb_scraper - INFO - Issue date: 14 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:33,125 - src.scrapers.isdb_scraper - INFO - Issue date: 18 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:33,632 - src.scrapers.isdb_scraper - INFO - Issue date: 19 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:33,646 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:26:33,646 - src.scrapers.isdb_scraper - INFO - Processing batch 10 (10 tenders)
+2025-04-21 12:26:37,502 - src.scrapers.isdb_scraper - INFO - Issue date: 19 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:37,885 - src.scrapers.isdb_scraper - INFO - Issue date: 20 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:38,500 - src.scrapers.isdb_scraper - INFO - Issue date: 20 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:39,451 - src.scrapers.isdb_scraper - INFO - Issue date: 19 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:40,729 - src.scrapers.isdb_scraper - INFO - Issue date: 20 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:41,123 - src.scrapers.isdb_scraper - INFO - Issue date: 21 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:42,123 - src.scrapers.isdb_scraper - INFO - Issue date: 21 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:43,086 - src.scrapers.isdb_scraper - INFO - Issue date: 21 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:44,804 - src.scrapers.isdb_scraper - INFO - Issue date: 28 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:46,985 - src.scrapers.isdb_scraper - INFO - Issue date: 29 August 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:46,996 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:26:46,996 - src.scrapers.isdb_scraper - INFO - Processing batch 11 (10 tenders)
+2025-04-21 12:26:50,743 - src.scrapers.isdb_scraper - INFO - Issue date: 24 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:51,345 - src.scrapers.isdb_scraper - INFO - Issue date: 18 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:51,828 - src.scrapers.isdb_scraper - INFO - Issue date: 16 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:52,451 - src.scrapers.isdb_scraper - INFO - Issue date: 27 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:54,283 - src.scrapers.isdb_scraper - INFO - Issue date: 19 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:54,466 - src.scrapers.isdb_scraper - INFO - Issue date: 27 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:55,258 - src.scrapers.isdb_scraper - INFO - Issue date: 29 September 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:55,870 - src.scrapers.isdb_scraper - INFO - Issue date: 1 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:56,537 - src.scrapers.isdb_scraper - INFO - Issue date: 2 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:59,106 - src.scrapers.isdb_scraper - INFO - Issue date: 2 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:26:59,119 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:26:59,119 - src.scrapers.isdb_scraper - INFO - Processing batch 12 (10 tenders)
+2025-04-21 12:27:04,671 - src.scrapers.isdb_scraper - INFO - Issue date: 23 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:05,744 - src.scrapers.isdb_scraper - INFO - Issue date: 23 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:05,853 - src.scrapers.isdb_scraper - INFO - Issue date: 19 December 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:05,948 - src.scrapers.isdb_scraper - INFO - Issue date: 23 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:06,943 - src.scrapers.isdb_scraper - INFO - Issue date: 2 October 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:08,551 - src.scrapers.isdb_scraper - INFO - Issue date: 24 December 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:09,798 - src.scrapers.isdb_scraper - INFO - Issue date: 25 April 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:10,536 - src.scrapers.isdb_scraper - INFO - Issue date: 29 December 2024, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:11,144 - src.scrapers.isdb_scraper - INFO - Issue date: 22 May 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:14,920 - src.scrapers.isdb_scraper - INFO - Issue date: 10 January 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:14,931 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:27:14,931 - src.scrapers.isdb_scraper - INFO - Processing batch 13 (10 tenders)
+2025-04-21 12:27:18,639 - src.scrapers.isdb_scraper - INFO - Issue date: 29 March 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:18,886 - src.scrapers.isdb_scraper - INFO - Issue date: 20 July 2020, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:19,241 - src.scrapers.isdb_scraper - INFO - Issue date: 6 February 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:19,867 - src.scrapers.isdb_scraper - INFO - Issue date: 13 January 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:22,649 - src.scrapers.isdb_scraper - INFO - Issue date: 25 January 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:23,153 - src.scrapers.isdb_scraper - INFO - Issue date: 13 April 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:26,385 - src.scrapers.isdb_scraper - INFO - Issue date: 13 April 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:26,645 - src.scrapers.isdb_scraper - INFO - Issue date: 2 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:26,807 - src.scrapers.isdb_scraper - INFO - Issue date: 16 April 2023, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:27,992 - src.scrapers.isdb_scraper - INFO - Issue date: 5 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:28,006 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:27:28,006 - src.scrapers.isdb_scraper - INFO - Processing batch 14 (10 tenders)
+2025-04-21 12:27:32,039 - src.scrapers.isdb_scraper - INFO - Issue date: 25 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:32,298 - src.scrapers.isdb_scraper - INFO - Issue date: 16 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:32,351 - src.scrapers.isdb_scraper - INFO - Issue date: 23 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:32,738 - src.scrapers.isdb_scraper - INFO - Issue date: 7 January 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:33,358 - src.scrapers.isdb_scraper - INFO - Issue date: 21 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:33,872 - src.scrapers.isdb_scraper - INFO - Issue date: 4 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:37,477 - src.scrapers.isdb_scraper - INFO - Issue date: 11 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:38,147 - src.scrapers.isdb_scraper - INFO - Issue date: 17 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:38,462 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:41,803 - src.scrapers.isdb_scraper - INFO - Issue date: 18 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:41,814 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:27:41,814 - src.scrapers.isdb_scraper - INFO - Processing batch 15 (2 tenders)
+2025-04-21 12:27:45,416 - src.scrapers.isdb_scraper - INFO - Issue date: 29 March 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:45,933 - src.scrapers.isdb_scraper - INFO - Issue date: 20 February 2025, Range: 14 April 2025 to 21 April 2025
+2025-04-21 12:27:45,945 - src.scrapers.isdb_scraper - INFO - Found 0 matching tenders in this batch
+2025-04-21 12:27:45,950 - src.scrapers.isdb_scraper - INFO - Total tenders collected: 3
+2025-04-21 12:27:46,113 - __main__ - INFO - ISDB data saved to C:\Users\rabieii.amin\Desktop\tender_detection\data\processed\ISDB_data_20250421_122746.csv
+2025-04-21 12:27:46,113 - src.scrapers.afdb_scraper - INFO - AfDB scraper initialized with base domain: https://www.afdb.org
+2025-04-21 12:27:46,114 - src.scrapers.afdb_scraper - INFO - Today's date in AfDB format: 21-Apr-2025
+2025-04-21 12:27:50,157 - src.scrapers.afdb_scraper - INFO - Processing page 1
+2025-04-21 12:27:50,176 - src.scrapers.afdb_scraper - INFO - No matching dates found on page 1, stopping search
+2025-04-21 12:27:50,176 - src.scrapers.afdb_scraper - INFO - No matching rows found
+2025-04-21 12:27:50,315 - __main__ - INFO - No data to save for AfDB
+2025-04-21 12:27:50,315 - src.scrapers.aiib_scraper - INFO - AIIB scraper initialized with base domain: https://www.aiib.org
+2025-04-21 12:27:50,316 - src.scrapers.aiib_scraper - INFO - Date range: Apr 14, 2025 to Apr 21, 2025
+2025-04-21 12:27:55,597 - src.scrapers.aiib_scraper - INFO - Table found
+2025-04-21 12:27:55,598 - src.scrapers.aiib_scraper - INFO - Processing page 1
+2025-04-21 12:27:55,803 - src.scrapers.aiib_scraper - INFO - Found 696 rows in the table
+2025-04-21 12:27:55,803 - src.scrapers.aiib_scraper - INFO - Processing batch 1 (10 rows)
+2025-04-21 12:27:55,854 - src.scrapers.aiib_scraper - INFO - Found date April 9, 2025 older than our range, stopping search
+2025-04-21 12:27:55,854 - src.scrapers.aiib_scraper - INFO - Found date April 2, 2025 older than our range, stopping search
+2025-04-21 12:27:55,855 - src.scrapers.aiib_scraper - INFO - Found date Mar 27, 2025 older than our range, stopping search
+2025-04-21 12:27:55,855 - src.scrapers.aiib_scraper - INFO - Found date Mar 27, 2025 older than our range, stopping search
+2025-04-21 12:27:55,855 - src.scrapers.aiib_scraper - INFO - Found date Mar 27, 2025 older than our range, stopping search
+2025-04-21 12:27:55,856 - src.scrapers.aiib_scraper - INFO - Found date Mar 27, 2025 older than our range, stopping search
+2025-04-21 12:27:55,856 - src.scrapers.aiib_scraper - INFO - Found date Mar 21, 2025 older than our range, stopping search
+2025-04-21 12:27:55,856 - src.scrapers.aiib_scraper - INFO - Found date Mar 21, 2025 older than our range, stopping search
+2025-04-21 12:27:55,882 - src.scrapers.aiib_scraper - INFO - Found matching row: Emergency Rural Road Reconstruction Project
+2025-04-21 12:27:55,885 - src.scrapers.aiib_scraper - INFO - Found matching row: Bukhara Region Water Supply and Sewerage (BRWSSP)
+2025-04-21 12:27:55,885 - src.scrapers.aiib_scraper - INFO - Found 2 matching rows in this batch
+2025-04-21 12:27:55,886 - src.scrapers.aiib_scraper - INFO - Found 2 matching rows on page 1
+2025-04-21 12:27:55,886 - src.scrapers.aiib_scraper - INFO - Found dates older than our range, stopping search
+2025-04-21 12:27:55,886 - src.scrapers.aiib_scraper - INFO - Total rows collected: 2
+2025-04-21 12:27:56,030 - __main__ - INFO - AIIB data saved to C:\Users\rabieii.amin\Desktop\tender_detection\data\processed\AIIB_data_20250421_122756.csv
+2025-04-21 12:27:56,030 - src.scrapers.afd_scraper - INFO - AFD scraper initialized with base domain: https://tenders-afd.dgmarket.com
+2025-04-21 12:27:56,031 - src.scrapers.afd_scraper - INFO - Date range: Apr 14, 2025 to Apr 21, 2025
+2025-04-21 12:28:01,846 - src.scrapers.afd_scraper - INFO - Processing page 1
+2025-04-21 12:28:01,954 - src.scrapers.afd_scraper - INFO - Found dates in our range on page 1, extracting data
+2025-04-21 12:28:01,973 - src.scrapers.afd_scraper - INFO - Found 20 rows in the table
+2025-04-21 12:28:01,973 - src.scrapers.afd_scraper - INFO - Processing batch 1 (5 rows)
+2025-04-21 12:28:02,042 - src.scrapers.afd_scraper - INFO - Found matching tender: Publication of Bid Evaluation Results of Lot 3: Civil Works of Comprehensive River Treatment and Ecological Restoration of Ecological conservation and restoration of the Daying river and its watershed in Tengchong,Yunnan Province
+2025-04-21 12:28:02,044 - src.scrapers.afd_scraper - INFO - Found matching tender: Audit du projet FAME
+2025-04-21 12:28:02,045 - src.scrapers.afd_scraper - INFO - Found matching tender: Procès-verbal d'ouverture : Acquisition de six (06) bus dont trois (03) de 30 places, un (01) de 50 places et deux (02) de 70 places au profit de OBSSU, UNSTIM, SGDS et MDN
+2025-04-21 12:28:02,047 - src.scrapers.afd_scraper - INFO - Found matching tender: Avis d’attribution provisoire relative à l’acquisition d’outillages électriques de la composante « Travaux » du PROMER
+2025-04-21 12:28:02,051 - src.scrapers.afd_scraper - INFO - Found matching tender: Projet de construction d’un hôpital pluridisciplinaire dans la ville de Gafse en Tunisie
+2025-04-21 12:28:03,757 - src.scrapers.afd_scraper - INFO - Found 5 matching rows in this batch
+2025-04-21 12:28:03,757 - src.scrapers.afd_scraper - INFO - Processing batch 2 (5 rows)
+2025-04-21 12:28:03,800 - src.scrapers.afd_scraper - INFO - Found matching tender: Procurement Of Prosseding, Not Book, A
+2025-04-21 12:28:03,819 - src.scrapers.afd_scraper - INFO - Found matching tender: AVIS DE PREQUALIFICATION N°S66/2025 RELATIF AUX TRAVAUX DE RENFORCEMENT DE LA ROUTE DU NORD : SECTIONS OUANGOLODOUGOU – FRONTIERE MALI (100 KM), OUANGOLODOUGOU – FRONTIERE BURKINA FASO (32 KM) ET 30 KM DE VOIRIES URBAINES ASSOCIEES
+2025-04-21 12:28:05,507 - src.scrapers.afd_scraper - INFO - Found 2 matching rows in this batch
+2025-04-21 12:28:05,508 - src.scrapers.afd_scraper - INFO - Processing batch 3 (5 rows)
+2025-04-21 12:28:05,531 - src.scrapers.afd_scraper - INFO - Found 0 matching rows in this batch
+2025-04-21 12:28:05,531 - src.scrapers.afd_scraper - INFO - Processing batch 4 (5 rows)
+2025-04-21 12:28:05,549 - src.scrapers.afd_scraper - INFO - Found 0 matching rows in this batch
+2025-04-21 12:28:05,550 - src.scrapers.afd_scraper - INFO - Found 7 matching rows on page 1
+2025-04-21 12:28:05,550 - src.scrapers.afd_scraper - INFO - Found dates older than our range, stopping search
+2025-04-21 12:28:05,551 - src.scrapers.afd_scraper - INFO - Total rows collected: 7
+2025-04-21 12:28:05,688 - __main__ - INFO - AFD data saved to C:\Users\rabieii.amin\Desktop\tender_detection\data\processed\AFD_data_20250421_122805.csv
+2025-04-21 12:28:05,689 - __main__ - INFO - Scraping completed. Total rows extracted: 12
